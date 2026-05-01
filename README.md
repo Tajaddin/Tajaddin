@@ -44,4 +44,5 @@ Exploring knowledge editing techniques for large language models and GPU-acceler
 
 ---
 
-📫 [LinkedIn](https://www.linkedin.com/in/tajaddin-gafarov) · taceddinqafarov@icloud.com
+📫 [LinkedIn](https://www.linkedin.com/in/tajaddin-gafarov) · gafarovtajaddin@gmail.com
+
