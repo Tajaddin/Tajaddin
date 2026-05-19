@@ -1,7 +1,8 @@
 # Tajaddin Gafarov
 
-**ML Engineer · LLM Systems · Agentic AI**
-Building production AI systems at scale — LLM-powered agents, RAG pipelines, and backend services that ship.
+**ML Engineer, LLM Systems, Agentic AI**
+
+Production AI systems at scale. LLM-powered agents, RAG pipelines, backend services in production.
 
 ---
 
@@ -11,6 +12,7 @@ Building production AI systems at scale — LLM-powered agents, RAG pipelines, a
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-FF6B35?style=flat&logoColor=white)
+![Anthropic MCP](https://img.shields.io/badge/Anthropic_MCP-D97757?style=flat&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logoColor=white)
@@ -34,17 +36,32 @@ Building production AI systems at scale — LLM-powered agents, RAG pipelines, a
 
 ## Featured Projects
 
-| Project | What it does | Stack |
-|---------|-------------|-------|
-| [llm-knowledge-editing](https://github.com/Tajaddin/llm-knowledge-editing) | LLM evaluation platform: RAG ingestion pipelines, pgvector retrieval, MLflow experiment tracking across ROME, LTE-LoRA, and ICE. Run on 4-GPU cluster over 48 hours. | Python, HuggingFace, LLaMA2, LangChain, MLflow |
-| [dota2-build-generator](https://github.com/Tajaddin/dota2-build-generator) | Embedding-based recommender trained on 50K+ matches. Deployed as production inference API with TypeScript + Node.js backend, Docker packaging, and CI/CD pipeline. | Python, PyTorch, TypeScript, Node.js, Docker |
-| [cuda-inlj](https://github.com/Tajaddin/cuda-inlj) | GPU-accelerated B+ Tree index nested-loop join. 4.2x speedup over CPU baseline on 10M-row datasets, benchmarked within 5% of theoretical bounds. | CUDA, C++ |
+| Project | What it ships | Hero number |
+|---------|---------------|-------------|
+| [langgraph-research-pilot](https://github.com/Tajaddin/langgraph-research-pilot) | LangGraph + RAG research agent with live HuggingFace demo, HotpotQA benchmark | +17% F1 vs single-shot baseline |
+| [mcp-server-toolkit](https://github.com/Tajaddin/mcp-server-toolkit) | Reusable Anthropic MCP framework, 3 example servers (filesystem, GitHub issues, SQLite), in-memory test runner | p99 tool round-trip 8.2 ms (6x under budget) |
+| [reproduce-stepback](https://github.com/Tajaddin/reproduce-stepback) | ICLR 2024 reproduction on Claude Haiku 4.5, honest negative result | Paper's +5.5 abs-pts effect collapses to +0.0 |
+| [async-llm-batcher](https://github.com/Tajaddin/async-llm-batcher) | Async LLM batch runner with checkpointing and resume-after-kill | 988/1000 success rate across 4 providers |
+| [streaming-etl-pipeline](https://github.com/Tajaddin/streaming-etl-pipeline) | Per-partition watermark ETL into DuckDB, 0% false-late events | 4,566 events/sec, 71% lower false-late than naive |
+| [fde-starter-kit](https://github.com/Tajaddin/fde-starter-kit) | 5 deploy-ready Anthropic templates behind one `fde-kit init` CLI | Customer demo to first deploy in under 10 minutes |
+
+More at the [pinned repos](https://github.com/Tajaddin?tab=repositories) and the [full project bench](https://github.com/Tajaddin?tab=repositories&type=source).
+
+---
+
+## Earlier Work (still good signal)
+
+| Project | What | Hero |
+|---------|------|------|
+| [llm-knowledge-editing](https://github.com/Tajaddin/llm-knowledge-editing) | ROME / LTE-LoRA / ICE benchmark on LLaMA2-7B, 4-GPU cluster | 12-page reproducibility report, 3 published-result discrepancies surfaced |
+| [cuda-inlj](https://github.com/Tajaddin/cuda-inlj) | GPU-accelerated B+ Tree nested-loop join | 4.2x speedup vs CPU on 10M rows, within 5% of theoretical bound |
+| [dota2-build-generator](https://github.com/Tajaddin/dota2-build-generator) | XGBoost + PyTorch embeddings recommender, 50K+ matches | 78% top-3 accuracy with SHAP feature importance |
 
 ---
 
 ## Currently Working On
 
-Production LLM agent systems with LangGraph: multi-step tool-use, agentic workflows, and RAG pipelines deployed at scale.
+Production LLM agent systems with LangGraph, Anthropic MCP servers, and reliability tooling. Open to remote roles in AI engineering, ML platform, and forward-deployed engineering.
 
 ---
 
