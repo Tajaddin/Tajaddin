@@ -1,8 +1,8 @@
 # Tajaddin Gafarov
 
-**ML Engineer, LLM Systems, Agentic AI**
+**ML Engineer | M.S. Computer Science (Data Science) @ USF, graduating May 2027**
 
-Production AI systems at scale. LLM-powered agents, RAG pipelines, backend services in production.
+LLM agents, RAG pipelines, and reliability tooling. I shipped production ML in remote part-time roles while completing my B.S. in Computer Science.
 
 ---
 
@@ -61,7 +61,7 @@ More at the [pinned repos](https://github.com/Tajaddin?tab=repositories) and the
 
 ## Currently Working On
 
-Production LLM agent systems with LangGraph, Anthropic MCP servers, and reliability tooling. Open to remote roles in AI engineering, ML platform, and forward-deployed engineering.
+LLM agent systems with LangGraph, Anthropic MCP servers, and reliability tooling. Open to ML Engineer and Software Engineer roles (early career), remote US or Tampa FL.
 
 ---
 
