@@ -54,7 +54,7 @@ More at the [pinned repos](https://github.com/Tajaddin?tab=repositories) and the
 | Project | What | Hero |
 |---------|------|------|
 | [llm-knowledge-editing](https://github.com/Tajaddin/llm-knowledge-editing) | ROME / LTE-LoRA / ICE benchmark on LLaMA2-7B, 4-GPU cluster | 12-page reproducibility report, 3 published-result discrepancies surfaced |
-| [cuda-inlj](https://github.com/Tajaddin/cuda-inlj) | GPU-accelerated B+ Tree nested-loop join | 4.2x speedup vs CPU on 10M rows, within 5% of theoretical bound |
+| [cuda-inlj](https://github.com/Tajaddin/cuda-inlj) | GPU-accelerated B+ Tree nested-loop join, up to 10M x 10M | Join kernel 4.4x faster than a GPU hash-join kernel |
 | [dota2-build-generator](https://github.com/Tajaddin/dota2-build-generator) | XGBoost + PyTorch embeddings recommender, 50K+ matches, live in-game overlay | Per-phase XGBoost models (early, mid, late) |
 
 ---
