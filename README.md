@@ -41,7 +41,7 @@ LLM agents, RAG pipelines, and reliability tooling. I shipped production ML in r
 | [langgraph-research-pilot](https://github.com/Tajaddin/langgraph-research-pilot) | LangGraph + RAG research agent with live HuggingFace demo, HotpotQA benchmark | +17% F1 vs single-shot baseline |
 | [mcp-server-toolkit](https://github.com/Tajaddin/mcp-server-toolkit) | Reusable Anthropic MCP framework, 3 example servers (filesystem, GitHub issues, SQLite), in-memory test runner | p99 tool round-trip 8.2 ms (6x under budget) |
 | [reproduce-stepback](https://github.com/Tajaddin/reproduce-stepback) | ICLR 2024 reproduction on Claude Haiku 4.5, honest negative result | Paper's +5.5 abs-pts effect collapses to +0.0 |
-| [async-llm-batcher](https://github.com/Tajaddin/async-llm-batcher) | Async LLM batch runner with checkpointing and resume-after-kill | 988/1000 success rate across 4 providers |
+| [async-llm-batcher](https://github.com/Tajaddin/async-llm-batcher) | Async LLM batch runner with rate limiting, retries, a dead-letter queue and resume-after-kill | ~991/1000 succeed under injected failures, 0 lost |
 | [streaming-etl-pipeline](https://github.com/Tajaddin/streaming-etl-pipeline) | Per-partition watermark ETL into DuckDB, 0% false-late events | 4,566 events/sec, 71% lower false-late than naive |
 | [fde-starter-kit](https://github.com/Tajaddin/fde-starter-kit) | 5 deploy-ready Anthropic templates behind one `fde-kit init` CLI | Customer demo to first deploy in under 10 minutes |
 
@@ -55,7 +55,7 @@ More at the [pinned repos](https://github.com/Tajaddin?tab=repositories) and the
 |---------|------|------|
 | [llm-knowledge-editing](https://github.com/Tajaddin/llm-knowledge-editing) | ROME / LTE-LoRA / ICE benchmark on LLaMA2-7B, 4-GPU cluster | 12-page reproducibility report, 3 published-result discrepancies surfaced |
 | [cuda-inlj](https://github.com/Tajaddin/cuda-inlj) | GPU-accelerated B+ Tree nested-loop join | 4.2x speedup vs CPU on 10M rows, within 5% of theoretical bound |
-| [dota2-build-generator](https://github.com/Tajaddin/dota2-build-generator) | XGBoost + PyTorch embeddings recommender, 50K+ matches | 78% top-3 accuracy with SHAP feature importance |
+| [dota2-build-generator](https://github.com/Tajaddin/dota2-build-generator) | XGBoost + PyTorch embeddings recommender, 50K+ matches, live in-game overlay | Per-phase XGBoost models (early, mid, late) |
 
 ---
 
