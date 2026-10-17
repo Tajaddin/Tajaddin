@@ -1,6 +1,6 @@
 # Tajaddin Gafarov
 
-AI and software engineer in Tampa, FL. M.S. in Computer Science (Data Science track) at the University of South Florida, expected May 2027; B.S. in Computer Science, USF, May 2025. Since 2021 I have built ML and data systems for two companies, remotely and part-time alongside full-time study.
+AI and software engineer in Tampa, FL. M.S. in Computer Science at the University of South Florida, expected May 2027; B.S. in Computer Science, USF, May 2025. Since 2021 I have built ML and data systems for two companies, remotely and part-time alongside full-time study.
 
 Every repository below ships with tests and a measured result. Unless marked otherwise, the numbers were reproduced from a fresh clone on 2026-10-16.
 
@@ -21,7 +21,7 @@ Website and resume: [tajaddin.github.io](https://tajaddin.github.io) · [LinkedI
 
 - [medrag-ground](https://github.com/Tajaddin/medrag-ground): audit-logged RAG over OpenFDA drug labels. 200-question eval: 100% refusal on unanswerable, PII and adversarial prompts, 90% citation rate, 0 hallucinated drug names (committed live run).
 - [mcp-server-toolkit](https://github.com/Tajaddin/mcp-server-toolkit): framework for Model Context Protocol servers with three example servers and an in-memory test harness; p99 tool round trip 8.2 ms.
-- [multi-agent-supervisor](https://github.com/Tajaddin/multi-agent-supervisor): planner, retriever, analyzer, verifier and synthesizer agents run in parallel; 1.31x faster than sequential on HotpotQA live, 1.99x in a simulated-latency benchmark.
+- [multi-agent-supervisor](https://github.com/Tajaddin/multi-agent-supervisor): planner, retriever, analyzer, verifier and synthesizer agents run in parallel; 1.31x faster than sequential on a 5-question HotpotQA run, 1.99x in a simulated-latency benchmark.
 - [kafka-clickhouse-analytics](https://github.com/Tajaddin/kafka-clickhouse-analytics): Kafka to tumbling-window aggregation to ClickHouse; 931K events/s on one core in the README, 2.39M/s re-run.
 - [spring-boot-task-api](https://github.com/Tajaddin/spring-boot-task-api), [aspnetcore-inventory-api](https://github.com/Tajaddin/aspnetcore-inventory-api), [ktor-url-shortener](https://github.com/Tajaddin/ktor-url-shortener): JWT, EF Core and Ktor services with load probes. READMEs say 973, 1,482 and ~1,500 req/s; re-run on an i7 they gave 2,500, 3,200 and 3,200 req/s at p99 under 45 ms.
 - [cuda-inlj](https://github.com/Tajaddin/cuda-inlj): GPU index nested-loop join with a B+ tree. The probe kernel is 4.4x faster than a GPU hash-join kernel; a separator-key bug that silently dropped 1.5% of matches is fixed.
