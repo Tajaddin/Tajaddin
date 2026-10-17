@@ -10,7 +10,7 @@ Website and resume: [tajaddin.github.io](https://tajaddin.github.io) · [LinkedI
 
 | Project | What it is | Measured result |
 |---|---|---|
-| [code-fix-agent](https://github.com/Tajaddin/code-fix-agent) | Agent on the Anthropic Agent SDK that reproduces, patches and verifies Python bugs in a pytest-driven loop, one isolated workspace per attempt | **12/12 bugs fixed** live on Claude Haiku 4.5, 3.58 iterations per bug, $0.10 total (committed live run; mock pipeline re-run) |
+| [code-fix-agent](https://github.com/Tajaddin/code-fix-agent) | Agent on the Anthropic API that reproduces, patches and verifies Python bugs in a pytest-driven loop, one isolated workspace per attempt | **12/12 bugs fixed** live on Claude Haiku 4.5, 3.58 iterations per bug, $0.10 total (committed live run; mock pipeline re-run) |
 | [langgraph-research-pilot](https://github.com/Tajaddin/langgraph-research-pilot) | LangGraph RAG agent for Wikipedia QA with citations, multi-query retrieval, a fact-check step, human-in-the-loop gates and crash-resumable state | **F1 0.313 to 0.368 (+17% relative)** over a single-prompt baseline on 30 HotpotQA questions, Claude Haiku 4.5 (committed run) |
 | [streaming-etl-pipeline](https://github.com/Tajaddin/streaming-etl-pipeline) | Event-time ETL into DuckDB with per-partition watermarks, late-data side outputs and crash-safe checkpoints | **0% false-late events vs 71%** with a single global watermark; 25 tests |
 | [fake-news-detector-ml](https://github.com/Tajaddin/fake-news-detector-ml) | A six-step data audit that traced a 99 to 100% baseline to publisher and stylistic leakage, then the honest number | **62.1% accuracy, 0.676 ROC-AUC** on the 1,267-statement LIAR test set; 25 tests |
@@ -30,6 +30,6 @@ Website and resume: [tajaddin.github.io](https://tajaddin.github.io) · [LinkedI
 
 ## Stack
 
-Python, SQL, Go, TypeScript, Java, Kotlin, C#, C/C++ · PyTorch, scikit-learn, Hugging Face, XGBoost, MLflow, LangChain, LangGraph, Anthropic Agent SDK, MCP · Kafka, ClickHouse, DuckDB, PostgreSQL, MongoDB, Redis, Spark, Airflow · FastAPI, Spring Boot, ASP.NET Core, gRPC, React · AWS, GCP, Docker, Kubernetes, Terraform, GitHub Actions
+Python, SQL, Go, TypeScript, Java, Kotlin, C#, C/C++ · PyTorch, scikit-learn, Hugging Face, XGBoost, MLflow, LangChain, LangGraph, Anthropic API, MCP · Kafka, ClickHouse, DuckDB, PostgreSQL, MongoDB, Redis, Spark, Airflow · FastAPI, Spring Boot, ASP.NET Core, gRPC, React · AWS, GCP, Docker, Kubernetes, Terraform, GitHub Actions
 
 Open to new-grad and early-career AI, ML, data and software engineering roles in Tampa Bay or remote US. Authorized to work in the US, no sponsorship needed.
