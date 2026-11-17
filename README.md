@@ -20,7 +20,7 @@ Coursework: Human-Computer Interaction (in progress), Introduction to Large Lang
 - **[langgraph-research-pilot](https://github.com/Tajaddin/langgraph-research-pilot)**: question-answering agent over Wikipedia. Each answer cites its sources, the agent pauses at two human review gates, and it answers "unknown" when retrieved sources do not support a claim. On 30 HotpotQA questions with Claude Haiku 4.5, exact match tied a single-prompt baseline at 23.3%, F1 rose from 0.313 to 0.368, and the agent abstained on 11 of 30.
 - **[conf-calib](https://github.com/Tajaddin/conf-calib)**: calibration for the confidence an LLM states in words. Llama-3.1-8B reported 100% confidence on about 91% of BoolQ questions while 84% accurate. On 300 held-out questions, isotonic regression cut expected calibration error from 0.148 to 0.030 with no change in accuracy.
 - **[streaming-chat-ui](https://github.com/Tajaddin/streaming-chat-ui)**: React chat interface with footnote-style source citations, stop, regenerate, and message editing, built from small tested modules.
-- **[fake-news-detector-ml](https://github.com/Tajaddin/fake-news-detector-ml)**: graduate ML course project. A six-step data audit traced a 99 to 100% accuracy baseline on the ISOT corpus to publisher and stylistic leakage. On the LIAR held-out test set (1,267 statements), the result is 62.1% accuracy and 0.676 ROC-AUC.
+- **[fake-news-detector-ml](https://github.com/Tajaddin/fake-news-detector-ml)**: graduate ML course project. A data audit traced a 100% baseline accuracy to a synthetic sample set whose test sentences repeat training sentences. On the LIAR held-out test set (1,267 statements), the result is 62.1% accuracy and 0.676 ROC-AUC.
 
 ## Background
 
